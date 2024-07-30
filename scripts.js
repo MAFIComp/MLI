@@ -76,11 +76,12 @@
     const email = form['text-1685272585518'].value;
     const phone = form['number-1685272591076'].value;
     const location = form['text-1685272875478'].value;
+    const teleuser = form['text-1685272875479'].value;
   
-    const message = `New Inquiry:\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nLocation: ${location}`;
+    const message = `رسالة جديدة:\nالأسم: ${name}\nالبريد: ${email}\nالهاتف: ${phone}\nالموقع: ${location}\n معرف تيلجرام: ${teleuser}`;
   
     const telegramToken = '7449175471:AAGREShtz0AjYZjW0Bkrt0Jq7RttO9SDAOU';
-    const chatId = '5614423542';
+    const chatId = '6500088716';
   
     const url = `https://api.telegram.org/bot${telegramToken}/sendMessage`;
   
