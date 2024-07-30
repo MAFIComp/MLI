@@ -81,7 +81,7 @@
     const message = `رسالة جديدة:\nالأسم: ${name}\nالبريد: ${email}\nالهاتف: ${phone}\nالموقع: ${location}\n معرف تيلجرام: ${teleuser}`;
   
     const telegramToken = '7449175471:AAGREShtz0AjYZjW0Bkrt0Jq7RttO9SDAOU';
-    const chatId = '6500088716';
+    const chatId = '6738790782';
   
     const url = `https://api.telegram.org/bot${telegramToken}/sendMessage`;
   
@@ -98,7 +98,7 @@
     .then(response => response.json())
     .then(data => {
         if (data.ok) {
-          alert('تم إؤسال استفسارك بنجاح سيتم التواصل معك قريباً ');
+          alert('تم إرسال استفسارك بنجاح سيتم التواصل معك قريباً ');
         } else {
             alert('يوجد خطأ ! الرجاء المحاولة لاحقاً');
         }
